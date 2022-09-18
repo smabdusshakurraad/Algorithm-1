@@ -48,6 +48,10 @@ public class QuickUnionWeightedUF {
         qf.union(3,6);
         qf.union(6,5);
         qf.union(1,5);
+        qf.union(0,8);
+        qf.union(4,9);
+        qf.union(0,4);
+        qf.union(2,0);
 
         System.out.println(qf.connected(2,5));
 
